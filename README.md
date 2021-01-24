@@ -2,7 +2,7 @@
 # Used to configure mac with dot files etc
 
 1) Generate ssh key
-git@github.com:witoldzol/ansible_setup.git
+ssh-keygen -t ed25519 -C "witold"
 
 2) Upload public key to git
 
