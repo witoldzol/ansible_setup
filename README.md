@@ -13,3 +13,9 @@ On mac, just run git command and prompt will come up for git installation
 
 git config --global user.name "Witold Zolnowski"
 git config --global user.email "blue3656@gmail.com"
+
+5) Install ansible
+
+6) Run ansible playbook from git
+
+ansible-pull -U https://github.com/witoldzol/ansible_setup.git
