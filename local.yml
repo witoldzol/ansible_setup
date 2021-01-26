@@ -3,7 +3,7 @@
   connection: local
   
   tasks:
-  - name: install htop
+  - name: install packages
     package: 
-      name: htop
-    become_user: witold
+      name: 
+	- iterm2
