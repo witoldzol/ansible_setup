@@ -8,5 +8,6 @@
     package: 
       name: 
         - iTerm2
+
   - name: install powerline-fonts
-    shell: powerline-fonts.sh
+    script: powerline-fonts.sh
