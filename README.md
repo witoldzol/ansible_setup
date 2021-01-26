@@ -19,3 +19,7 @@ git config --global user.email "blue3656@gmail.com"
 6) Run ansible playbook from git
 
 ansible-pull -U https://github.com/witoldzol/ansible_setup.git
+
+7) Install powerline fonts
+
+iTerm -> Preferences -> Text -> Font (powerline type)
