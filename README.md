@@ -22,4 +22,4 @@ ansible-pull -U https://github.com/witoldzol/ansible_setup.git
 
 7) Install powerline fonts
 
-iTerm -> Preferences -> Text -> Font (powerline type)
+iTerm -> Preferences -> Profiles -> Text -> Font (powerline type)
