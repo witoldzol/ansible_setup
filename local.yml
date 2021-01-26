@@ -6,4 +6,4 @@
   - name: install packages
     package: 
       name: 
-	- iterm2
+        - iterm2
