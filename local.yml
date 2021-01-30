@@ -8,6 +8,7 @@
     package: 
       name: 
         - iTerm2
+        - spectacle
 
   - name: install powerline-fonts
     script: powerline-fonts.sh
