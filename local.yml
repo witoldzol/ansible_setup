@@ -4,11 +4,17 @@
   ignore_errors: yes
   
   tasks:
-  - name: install packages
+  - name: install iTerm2
     package: 
-      name: 
-        - iTerm2
-        - spectacle
+      name: iTerm2
+
+  - name: install spectacle
+    package: 
+      name: spectacle
+
+  - name: install karabiner
+    package:
+      name: karabiner-elements
 
   - name: install powerline-fonts
     script: powerline-fonts.sh

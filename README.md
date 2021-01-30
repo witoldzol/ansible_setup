@@ -23,3 +23,6 @@ ansible-pull -U https://github.com/witoldzol/ansible_setup.git
 7) Install powerline fonts
 
 iTerm -> Preferences -> Profiles -> Text -> Font (powerline type)
+
+8) Specticle & Karabiner require manual permission
+
