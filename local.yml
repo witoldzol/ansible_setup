@@ -16,5 +16,13 @@
     package:
       name: karabiner-elements
 
+  - name: install nodejs
+    package:
+      name: node
+
+  - name: install emacs
+    package:
+      name: emacs
+
   - name: install powerline-fonts
     script: powerline-fonts.sh

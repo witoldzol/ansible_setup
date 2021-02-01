@@ -26,3 +26,6 @@ iTerm -> Preferences -> Profiles -> Text -> Font (powerline type)
 
 8) Specticle & Karabiner require manual permission
 
+9) Install IntelliJ version 2019.3.5 & import settings
+You have to install plugins manually
+ 
