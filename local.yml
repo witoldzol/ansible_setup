@@ -24,5 +24,12 @@
     package:
       name: emacs
 
+  - name: install packages for doom
+    package:
+      name: 
+        - ripgrep 
+        - coreutils 
+        - fd
+
   - name: install powerline-fonts
     script: powerline-fonts.sh
