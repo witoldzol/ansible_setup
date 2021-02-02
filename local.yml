@@ -20,9 +20,8 @@
     package:
       name: node
 
-  - name: install emacs
-    package:
-      name: emacs
+  - name: install emacs 
+    shell: brew install emacs --cask
 
   - name: install packages for doom
     package:
