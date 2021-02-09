@@ -4,34 +4,34 @@
   ignore_errors: yes
   
   tasks:
-  - name: install iTerm2
+  - name: Install iTerm2
     package: 
       name: iTerm2
 
-  - name: install spectacle
+  - name: Install spectacle
     package: 
       name: spectacle
 
-  - name: install karabiner
+  - name: Install karabiner
     package:
       name: karabiner-elements
 
-  - name: install hammerspoon
+  - name: Install hammerspoon
     package:
       name: hammerspoon
 
-  - name: install alfred
+  - name: Install alfred
     package:
       name: alfred
 
-  - name: install nodejs
+  - name: Install nodejs
     package:
       name: node
 
-  - name: install emacs 
+  - name: Install emacs
     shell: brew install emacs --cask
 
-  - name: install packages for doom
+  - name: Install packages for doom
     package:
       name: 
         - ripgrep 
@@ -48,6 +48,18 @@
       git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
       ~/.emacs.d/bin/doom install -y
     when: not stat_result.stat.exists
+
+  - name: Copy custom Doom config
+    shell: | 
+      cd /tmp
+      git clone git@github.com:witoldzol/emacs_doom_config.git
+      mv /tmp/emacs_doom_config/* ~/.doom.d/
+      rm -rf /tmp/emacs_doom_config
+
+  - name: Reload doom with the new config settings
+    shell: | 
+      cd ~/.emacs.d/bin
+      ./doom sync
 
   - name: Check if powerline-fonts are installed
     stat:
