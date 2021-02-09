@@ -20,6 +20,10 @@
     package:
       name: hammerspoon
 
+  - name: install alfred
+    package:
+      name: alfred
+
   - name: install nodejs
     package:
       name: node
