@@ -16,6 +16,10 @@
     package:
       name: karabiner-elements
 
+  - name: install hammerspoon
+    package:
+      name: hammerspoon
+
   - name: install nodejs
     package:
       name: node
