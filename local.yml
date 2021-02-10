@@ -20,6 +20,21 @@
     package:
       name: hammerspoon
 
+  - name: Download hammerspoon conifg
+    shell: | 
+      cd /tmp
+      git git@github.com:witoldzol/hammerspoon_config.git
+      mv /tmp/hammerspoon_config/init.lua ~/.hammerspoon
+      rm -rf /tmp/hammerspoon_config
+
+  - name: Install VSCode
+    package: 
+      name: visual-studio-code
+
+  - name: Install jq (json formatter)
+    package: 
+      name: jq
+
   - name: Install alfred
     package:
       name: alfred
