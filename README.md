@@ -28,4 +28,6 @@ iTerm -> Preferences -> Profiles -> Text -> Font (powerline type)
 
 9) Install IntelliJ version 2019.3.5 & import settings
 You have to install plugins manually
- 
+
+10) Enable normal operation for `F` keys
+System Preferences -> Keyboard -> Keyboard (tab) -> `Use F1, F2 etc as stardard function keys` 
