@@ -31,3 +31,6 @@ You have to install plugins manually
 
 10) Enable normal operation for `F` keys
 System Preferences -> Keyboard -> Keyboard (tab) -> `Use F1, F2 etc as stardard function keys` 
+
+11) Enable right click for mouse!
+System Preferences -> Mouse -> `Secondary click`
