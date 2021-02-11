@@ -34,3 +34,6 @@ System Preferences -> Keyboard -> Keyboard (tab) -> `Use F1, F2 etc as stardard 
 
 11) Enable right click for mouse!
 System Preferences -> Mouse -> `Secondary click`
+
+12) Download & instal Captin ( caps lock notification )
+Url: https://www.macupdate.com/app/mac/59718/captin/download/secure
