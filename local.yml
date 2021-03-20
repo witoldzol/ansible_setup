@@ -84,3 +84,12 @@
   - name: install powerline-fonts
     script: powerline-fonts.sh
     when: not font_result.stat.exists
+
+  - name: Install custom shortucts for MAC OS
+    shell: |
+      cd /tmp
+      git clone git@github.com:fkchang/emacs-keybindings-in-osx.git
+      ./emacs-keybindings-in-osx/install.sh
+      rm -rf emacs-keybindings-in-osx
+    tags:
+      - shortcuts
