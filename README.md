@@ -24,7 +24,8 @@ ansible-pull -U https://github.com/witoldzol/ansible_setup.git
 
 iTerm -> Preferences -> Profiles -> Text -> Font (powerline type)
 
-8) Specticle & Karabiner require manual permission
+8) Change meta key in iTerm
+Preferences -> Profiles -> Keys -> Change <Left Option> from Normal to Esc+
 
 9) Install IntelliJ version 2019.3.5 & import settings
 You have to install plugins manually
@@ -37,3 +38,5 @@ System Preferences -> Mouse -> `Secondary click`
 
 12) Download & instal Captin ( caps lock notification )
 Url: https://www.macupdate.com/app/mac/59718/captin/download/secure
+
+13) Specticle & Karabiner require manual permission
